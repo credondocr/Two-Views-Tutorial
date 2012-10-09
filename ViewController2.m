@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Complex. All rights reserved.
 //
 
-#import "ViewController2ViewController.h"
+#import "ViewController2.h"
 
 @interface ViewController2ViewController ()
 
