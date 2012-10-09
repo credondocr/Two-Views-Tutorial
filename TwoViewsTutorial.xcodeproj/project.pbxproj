@@ -18,8 +18,8 @@
 		DB1715091623CB88008835D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1715081623CB88008835D4 /* Default-568h@2x.png */; };
 		DB17150C1623CB88008835D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB17150B1623CB88008835D4 /* ViewController.m */; };
 		DB17150F1623CB88008835D4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB17150D1623CB88008835D4 /* ViewController.xib */; };
-		DB17151B1623CDAC008835D4 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1715191623CDAC008835D4 /* ViewController2.m */; };
-		DB17151C1623CDAC008835D4 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB17151A1623CDAC008835D4 /* ViewController2.xib */; };
+		DBC908291623DB5800367AAD /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC908281623DB5800367AAD /* ViewController2.m */; };
+		DBC9082B1623DB5F00367AAD /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBC9082A1623DB5F00367AAD /* ViewController2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,9 +39,9 @@
 		DB17150A1623CB88008835D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DB17150B1623CB88008835D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DB17150E1623CB88008835D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		DB1715181623CDAC008835D4 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController2.h; path = ../ViewController2.h; sourceTree = "<group>"; };
-		DB1715191623CDAC008835D4 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController2.m; path = ../ViewController2.m; sourceTree = "<group>"; };
-		DB17151A1623CDAC008835D4 /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController2.xib; path = ../ViewController2.xib; sourceTree = "<group>"; };
+		DBC908271623DB4D00367AAD /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		DBC908281623DB5800367AAD /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		DBC9082A1623DB5F00367AAD /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +88,9 @@
 		DB1714F81623CB88008835D4 /* TwoViewsTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				DB1715181623CDAC008835D4 /* ViewController2.h */,
-				DB1715191623CDAC008835D4 /* ViewController2.m */,
-				DB17151A1623CDAC008835D4 /* ViewController2.xib */,
+				DBC908271623DB4D00367AAD /* ViewController2.h */,
+				DBC908281623DB5800367AAD /* ViewController2.m */,
+				DBC9082A1623DB5F00367AAD /* ViewController2.xib */,
 				DB1715011623CB88008835D4 /* AppDelegate.h */,
 				DB1715021623CB88008835D4 /* AppDelegate.m */,
 				DB17150A1623CB88008835D4 /* ViewController.h */,
@@ -171,7 +171,7 @@
 				DB1715071623CB88008835D4 /* Default@2x.png in Resources */,
 				DB1715091623CB88008835D4 /* Default-568h@2x.png in Resources */,
 				DB17150F1623CB88008835D4 /* ViewController.xib in Resources */,
-				DB17151C1623CDAC008835D4 /* ViewController2.xib in Resources */,
+				DBC9082B1623DB5F00367AAD /* ViewController2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +185,7 @@
 				DB1714FF1623CB88008835D4 /* main.m in Sources */,
 				DB1715031623CB88008835D4 /* AppDelegate.m in Sources */,
 				DB17150C1623CB88008835D4 /* ViewController.m in Sources */,
-				DB17151B1623CDAC008835D4 /* ViewController2.m in Sources */,
+				DBC908291623DB5800367AAD /* ViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
