@@ -17,7 +17,7 @@
 		DB1715071623CB88008835D4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1715061623CB88008835D4 /* Default@2x.png */; };
 		DB1715091623CB88008835D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1715081623CB88008835D4 /* Default-568h@2x.png */; };
 		DB17150C1623CB88008835D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB17150B1623CB88008835D4 /* ViewController.m */; };
-		DB17150F1623CB88008835D4 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB17150D1623CB88008835D4 /* ViewController_iPhone.xib */; };
+		DB17150F1623CB88008835D4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB17150D1623CB88008835D4 /* ViewController.xib */; };
 		DB17151B1623CDAC008835D4 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1715191623CDAC008835D4 /* ViewController2.m */; };
 		DB17151C1623CDAC008835D4 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB17151A1623CDAC008835D4 /* ViewController2.xib */; };
 /* End PBXBuildFile section */
@@ -38,7 +38,7 @@
 		DB1715081623CB88008835D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DB17150A1623CB88008835D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DB17150B1623CB88008835D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DB17150E1623CB88008835D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		DB17150E1623CB88008835D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		DB1715181623CDAC008835D4 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController2.h; path = ../ViewController2.h; sourceTree = "<group>"; };
 		DB1715191623CDAC008835D4 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController2.m; path = ../ViewController2.m; sourceTree = "<group>"; };
 		DB17151A1623CDAC008835D4 /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController2.xib; path = ../ViewController2.xib; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 				DB1715021623CB88008835D4 /* AppDelegate.m */,
 				DB17150A1623CB88008835D4 /* ViewController.h */,
 				DB17150B1623CB88008835D4 /* ViewController.m */,
-				DB17150D1623CB88008835D4 /* ViewController_iPhone.xib */,
+				DB17150D1623CB88008835D4 /* ViewController.xib */,
 				DB1714F91623CB88008835D4 /* Supporting Files */,
 			);
 			path = TwoViewsTutorial;
@@ -170,7 +170,7 @@
 				DB1715051623CB88008835D4 /* Default.png in Resources */,
 				DB1715071623CB88008835D4 /* Default@2x.png in Resources */,
 				DB1715091623CB88008835D4 /* Default-568h@2x.png in Resources */,
-				DB17150F1623CB88008835D4 /* ViewController_iPhone.xib in Resources */,
+				DB17150F1623CB88008835D4 /* ViewController.xib in Resources */,
 				DB17151C1623CDAC008835D4 /* ViewController2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,12 +200,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		DB17150D1623CB88008835D4 /* ViewController_iPhone.xib */ = {
+		DB17150D1623CB88008835D4 /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DB17150E1623CB88008835D4 /* en */,
 			);
-			name = ViewController_iPhone.xib;
+			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
